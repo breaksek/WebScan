@@ -42,6 +42,7 @@ def main_function(url, payloads, check):
         	print ga.green+" [!] Target is not vulnerable!"+ga.end
         else:
         	print ga.blue+" [!] Congratulations you've found %i bugs :-) " % (vuln) +ga.end
+        	os.system("mpv kerjabagus.mp3")
 
 # Here stands the vulnerabilities functions and detection payloads. 
 def rce_func(url):
