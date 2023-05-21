@@ -21,10 +21,17 @@ print ga.green+'''                           _    _      _     _____
         #################################################################
 	'''+ga.end
 
+menu = ga.green+''
+[?] Pilih Methode Scan :
+1. Scan target yang di masukkan.
+2. Scan dari file daftar target.
+''+ga.end
+
 def urls_or_list():
-	url_or_list = raw_input(" [!] Scan URL or List of URLs? [1/2]: ")
+  print (menu)
+	url_or_list = raw_input(" [!] Methode : ")
 	if url_or_list == "1":
-	 	 url = raw_input(" [!] Enter the URL: ")
+	 	 url = raw_input(" [!] Masukkan link target : ")
 #		 if not url.startswith("http://"):
 #		     Thanks to Nu11 for the HTTP checker
 #                     print ga.red+'''\n Invalid URL, Please Make Sure That The URL Starts With \"http://\" \n'''+ga.end
