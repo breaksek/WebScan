@@ -62,7 +62,7 @@ def urls_or_list():
 				print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
 		 exit()				
 urls_or_list()
-os.system("mpv kerjabagus.mp3")
+
 
 
 
