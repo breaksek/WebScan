@@ -29,7 +29,7 @@ menu = ga.green+'''
 
 def urls_or_list():
   print (menu)
-	url_or_list = raw_input(" [!] Methode : ")
+	url_or_list = raw_input("[!] Methode : ")
 	if url_or_list == "1":
 	 	 url = raw_input(" [!] Masukkan link target : ")
 #		 if not url.startswith("http://"):
