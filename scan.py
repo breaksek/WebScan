@@ -3,7 +3,6 @@ import os, re, urllib, time
 from headers import *
 from vulnz import *
 
-os.system("mpv kerjabagus.mp3")
 os.system("clear")
 print ga.green+'''
                    _    _      _     _____                            
@@ -19,7 +18,7 @@ print ga.green+'''
         #|  By : breaksek                                           |#
         #|  Tiktok : https://tiktok.com/@breaksek                   |#
         #|  Author : zigoo0                                         |#
-	#|  Source : https://github.com/zigoo0/webpwn3r             |#
+      	#|  Source : https://github.com/zigoo0/webpwn3r             |#
         #|                                                          |#
         ##############################################################
         '''+ga.end
@@ -62,9 +61,8 @@ def urls_or_list():
 				print ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end				
 				print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
 		 exit()				
-
 urls_or_list()
-
+os.system("mpv kerjabagus.mp3")
 
 
 
