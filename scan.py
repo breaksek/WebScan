@@ -16,7 +16,7 @@ print ga.green+'''                           _    _      _     _____
         #| WebScan : Tools yang memiliki fungsi scan vuln pada website |#
         #|                                                             |#
         #|                                                             |#
-	#|                                                             |#
+      	#|                                                             |#
         #################################################################
 	'''+ga.end
 
