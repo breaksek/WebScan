@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-import re
-import urllib
+import re, os, time, urllib
 from headers import *
 from vulnz import *
 
@@ -29,8 +28,8 @@ menu = ga.green+'''
 
 def menuaw():
   print(menu)
-	menuaw = int(input(" [!] Methode (1/2) : "))
-	if menuaw == "1":
+	menuhome = raw_input(" [!] Methode (1/2) : ")
+	if menuhome == "1":
 	 	 url = raw_input(" [!] Masukkan link target : ")
 #		 if not url.startswith("http://"):
 #		     Thanks to Nu11 for the HTTP checker
@@ -44,7 +43,7 @@ def menuaw():
 			print ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end			
 			print ga.red +" [Warning] You should write a Full URL examp(http://site.com/page.php?id=value) \n"+ ga.end
 			exit()
-	if menuaw =="2":
+	if menuhome =="2":
 		 urls_list = raw_input( ga.green+" [!] Enter the list file name examp[list.txt] : "+ga.end)
 		 open_list = open(urls_list).readlines()
 		 for line in open_list:
