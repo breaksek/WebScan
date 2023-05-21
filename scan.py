@@ -29,9 +29,10 @@ def urls_or_list():
      1. Scan dari link/url yang dimasukkan.
      2. Scan dari file daftar target examp(list.txt).
 '''+ga.end
+
 	url_or_list = raw_input("  [!] Pilih methode (1/2) : ")
 	if url_or_list == "1":
-	 	 url = raw_input("  [!] Masukkan link/url examp(https://site.com/product.php?id=1) : ")
+	 	 url = raw_input("  [!] Masukkan target examp(https://site.com/product.php?id=1) : ")
 		 #if not url.startswith("http://"):
 		     #Thanks to Nu11 for the HTTP checker
                      #print ga.red+'''\n Invalid URL, Please Make Sure That The URL Starts With \"http://\" \n'''+ga.end
