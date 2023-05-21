@@ -28,7 +28,7 @@ menu = ga.green+'''
 '''+ga.end
 
 def urls_or_list():
-  print (menu)
+  print(menu)
 	url_or_list = raw_input(" [!] Methode : ")
 	if url_or_list == "1":
 	 	 url = raw_input(" [!] Masukkan link target : ")
