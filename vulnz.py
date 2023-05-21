@@ -47,6 +47,7 @@ def main_function(url, payloads, check):
 # Here stands the vulnerabilities functions and detection payloads. 
 def rce_func(url):
 	headers_reader(url)
+  	print ""
   	print ga.bold+" [!] Now Scanning for Remote Code/Command Execution "+ga.end
   	print ga.blue+" [!] Covering Linux & Windows Operating Systems "+ga.end
   	print ga.blue+" [!] Please wait ...."+ga.end
@@ -61,6 +62,9 @@ def rce_func(url):
   	main_function(url, payloads, check)
 
 def xss_func(url):
+        print ""
+        print "-----------------------------{ breaksek }-----------------------------"
+        print ""
         print ga.bold+"\n [!] Now Scanning for XSS "+ga.end
         print ga.blue+" [!] Please wait ...."+ga.end
         #Paylod zigoo="css();" added for XSS in <a href TAG's
