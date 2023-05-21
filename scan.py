@@ -4,7 +4,7 @@ import urllib
 from headers import *
 from vulnz import *
 
-print ga.green+'''                           _    _      _     _____                 
+banner = """                           _    _      _     _____                 
 	  		  | |  | |    | |   /  ___|                
 			  | |  | | ___| |__ \ `--.  ___ __ _ _ __  
 			  | |/\| |/ _ \ '_ \ `--. \/ __/ _` | '_ \ 
@@ -18,8 +18,9 @@ print ga.green+'''                           _    _      _     _____
         #|                                                             |#
         #|                                                             |#
 	#|                                                             |#
-        #################################################################'''+ga.end
+        #################################################################"""
 
+print ga.green+(banner)+end.green
 def urls_or_list():
 	url_or_list = raw_input(" [!] Scan URL or List of URLs? [1/2]: ")
 	if url_or_list == "1":
