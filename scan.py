@@ -42,7 +42,7 @@ def urls_or_list():
 		 	error_based_sqli_func(url)
 		 else:
 			print ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end			
-			print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
+			print ga.red +" [Warning] You should write a Full URL examp(http://site.com/page.php?id=value) \n"+ ga.end
 			exit()
 	if menuaw =="2":
 		 urls_list = raw_input( ga.green+" [!] Enter the list file name examp[list.txt] : "+ga.end)
