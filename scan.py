@@ -29,7 +29,7 @@ def urls_or_list():
      1. Scan dari link/url yang dimasukkan.
      2. Scan dari file daftar target examp(list.txt).
 '''+ga.end
-	url_or_list = raw_input("  [!] Methode (1/2) : ")
+	url_or_list = raw_input("  [!] Pilih methode (1/2) : ")
 	if url_or_list == "1":
 	 	 url = raw_input("  [!] Masukkan link/url examp(https://site.com/product.php?id=1) : ")
 		 #if not url.startswith("http://"):
@@ -45,7 +45,7 @@ def urls_or_list():
 			print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
 			exit()
 	if url_or_list =="2":
-		 urls_list = raw_input( ga.green+" [!] Enter the list file name .e.g [list.txt]: "+ga.end)
+		 urls_list = raw_input( ga.green+" [!] Masukkan nama file examp(list.txt) : "+ga.end)
 		 open_list = open(urls_list).readlines()
 		 for line in open_list:
 			 if "?" in line:
