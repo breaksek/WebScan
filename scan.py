@@ -21,11 +21,11 @@ print ga.green+'''                           _    _      _     _____
         #################################################################
 	'''+ga.end
 
-menu = ga.green+''
+menu = ga.green+'''
 [?] Pilih Methode Scan :
 1. Scan target yang di masukkan.
 2. Scan dari file daftar target.
-''+ga.end
+'''+ga.end
 
 def urls_or_list():
   print (menu)
