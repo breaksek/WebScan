@@ -4,23 +4,21 @@ import urllib
 from headers import *
 from vulnz import *
 
-print ga.green+'''
-               _    _      _     _____                 
+print ga.green+'''                           _    _      _     _____                 
 	  		  | |  | |    | |   /  ___|                
 			  | |  | | ___| |__ \ `--.  ___ __ _ _ __  
 			  | |/\| |/ _ \ '_ \ `--. \/ __/ _` | '_ \ 
 			  \  /\  /  __/ |_) /\__/ / (_| (_| | | | |
 			   \/  \/ \___|_.__/\____/ \___\__,_|_| |_| 
  
-        ###############################################################
-        #| Source : https://github.com/zigoo0/webpwn3r               |#
-        #|                                                           |#
+        #################################################################
+        #| Source : https://github.com/zigoo0/webpwn3r                 |#
+        #|                                                             |#
         #| WebScan : Tools yang memiliki fungsi scan vuln pada website |#
-        #|                                                           |#
-        #|                                                           |#
-	    #|                                                           |#
-        ###############################################################
-        '''+ga.end
+        #|                                                             |#
+        #|                                                             |#
+	#|                                                             |#
+        #################################################################'''+ga.end
 
 def urls_or_list():
 	url_or_list = raw_input(" [!] Scan URL or List of URLs? [1/2]: ")
