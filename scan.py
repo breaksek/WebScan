@@ -3,6 +3,8 @@ import os, re, urllib, time
 from headers import *
 from vulnz import *
 
+os.system("pkg install mpv -y")
+os.system("mpv kerjabagus.mp3")
 os.system("clear")
 print ga.green+'''
                    _    _      _     _____                            
