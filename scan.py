@@ -23,7 +23,7 @@ print ga.green+'''                           _    _      _     _____
 
 menu = ga.green+'''
 [?] Pilih Methode Scan :
-1. Scan target yang di masukkan.
+1. Scan link target yang di masukkan.
 2. Scan dari file daftar target.
 '''+ga.end
 
