@@ -48,6 +48,8 @@ def main_function(url, payloads, check):
 def rce_func(url):
 	headers_reader(url)
   	print ""
+    print "-----------------------------{ breaksek }-----------------------------"
+    print ""
   	print ga.bold+" [!] Now Scanning for Remote Code/Command Execution "+ga.end
   	print ga.blue+" [!] Covering Linux & Windows Operating Systems "+ga.end
   	print ga.blue+" [!] Please wait ...."+ga.end
@@ -74,6 +76,9 @@ def xss_func(url):
         main_function(url, payloads, check)
 
 def error_based_sqli_func(url):
+	print ""
+  print "-----------------------------{ breaksek }-----------------------------"
+  print ""
 	print ga.bold+"\n [!] Now Scanning for Error Based SQL Injection "+ga.end
 	print ga.blue+" [!] Covering MySQL, Oracle, MSSQL, MSACCESS & PostGreSQL Databases "+ga.end
 	print ga.blue+" [!] Please wait ...."+ga.end
