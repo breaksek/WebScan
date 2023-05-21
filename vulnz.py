@@ -34,6 +34,9 @@ def main_function(url, payloads, check):
                         print ga.green+" [!] Code Snippet: " +ga.end + line.strip()
                         print ga.blue+" [*] POC: "+ga.end + bugs
                         print ga.green+" [*] Happy Exploitation :D"+ga.end
+                        print ""
+                        print "========================================="
+                        print ""
                         vuln +=1
         if vuln == 0:                
         	print ga.green+" [!] Target is not vulnerable!"+ga.end
