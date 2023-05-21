@@ -29,8 +29,8 @@ menu = ga.green+'''
 
 def urls_or_list():
   print(menu)
-	url_or_list = raw_input(" [!] Methode : ")
-	if url_or_list == "1":
+	menuaw = int(input(" [!] Methode (1/2) : "))
+	if menuaw == "1":
 	 	 url = raw_input(" [!] Masukkan link target : ")
 #		 if not url.startswith("http://"):
 #		     Thanks to Nu11 for the HTTP checker
@@ -44,7 +44,7 @@ def urls_or_list():
 			print ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end			
 			print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
 			exit()
-	if url_or_list =="2":
+	if menuaw =="2":
 		 urls_list = raw_input( ga.green+" [!] Enter the list file name examp[list.txt] : "+ga.end)
 		 open_list = open(urls_list).readlines()
 		 for line in open_list:
@@ -62,7 +62,7 @@ def urls_or_list():
 				print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
 		 exit()				
 
-urls_or_list()
+menuaw()
 
 
 
