@@ -27,7 +27,7 @@ menu = ga.green+'''
 2. Scan dari file daftar target.
 '''+ga.end
 
-def urls_or_list():
+def menuaw():
   print(menu)
 	menuaw = int(input(" [!] Methode (1/2) : "))
 	if menuaw == "1":
