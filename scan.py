@@ -28,7 +28,7 @@ def urls_or_list():
         [?] Pilih methode Scan :
      1. Scan dari link/url yang dimasukkan.
      2. Scan dari file daftar target examp(list.txt).
-'''+ga.end
+     '''+ga.end
 
 	url_or_list = raw_input("  [!] Pilih methode (1/2) : ")
 	if url_or_list == "1":
