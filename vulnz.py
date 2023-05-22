@@ -2,12 +2,6 @@
 import urllib, re, os, time
 from headers import *
 
-#updates:
-# 1- Fixed the empty parameters issue => Done.
-# 2- User agents when sending a Request => Done.
-# 3- Added Error Based SQLI Detection Support => Done.
-# 4- Will try to add XSS Injection in Cookies, Refere and UserAgent
-
 def main_function(url, payloads, check):
         #This function is going to split the url and try the append paylods in every parameter value.
         opener = urllib.urlopen(url)
@@ -47,9 +41,9 @@ def main_function(url, payloads, check):
 # Here stands the vulnerabilities functions and detection payloads. 
 def rce_func(url):
 	headers_reader(url)
-  	print ("")
-    print ("==============================================================")
-    print ("")
+	print ("")
+	print ("==============================================================")
+	print ("")
   	print ga.bold+" [!] Now Scanning for Remote Code/Command Execution "+ga.end
   	print ga.blue+" [!] Covering Linux & Windows Operating Systems "+ga.end
   	print ga.blue+" [!] Please wait ...."+ga.end
@@ -77,8 +71,8 @@ def xss_func(url):
 
 def error_based_sqli_func(url):
 	print ("")
-  print ("==============================================================")
-  print ("")
+	print ("==============================================================")
+	print ("")
 	print ga.bold+"\n [!] Now Scanning for Error Based SQL Injection "+ga.end
 	print ga.blue+" [!] Covering MySQL, Oracle, MSSQL, MSACCESS & PostGreSQL Databases "+ga.end
 	print ga.blue+" [!] Please wait ...."+ga.end
