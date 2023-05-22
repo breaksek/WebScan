@@ -32,7 +32,7 @@ def urls_or_list():
 
 	url_or_list = raw_input("  [!] Pilih methode (1/2) : ")
 	if url_or_list == "1":
-	 	 url = raw_input("  [!] Masukkan target examp(https://site.com/product.php?id=1) : ")
+	 	 url = raw_input("  [!] Masukkan target : ")
 		 #if not url.startswith("http://"):
 		     #Thanks to Nu11 for the HTTP checker
                      #print ga.red+'''\n Invalid URL, Please Make Sure That The URL Starts With \"http://\" \n'''+ga.end
@@ -61,7 +61,7 @@ def urls_or_list():
 		  	 	url = links
 				print ga.red +"\n [Warning] "+ ga.end + ga.bold+"%s"%url +ga.end + ga.red +" is not a valid URL"+ga.end				
 				print ga.red +" [Warning] You should write a Full URL .e.g http://site.com/page.php?id=value \n"+ ga.end
-		 exit()				
+exit()				
 urls_or_list()
 
 
