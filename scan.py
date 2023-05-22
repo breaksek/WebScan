@@ -25,7 +25,7 @@ print ga.green+'''
 
 def urls_or_list():
         print ga.blue+'''
- [?] Pilih methode Scan :
+        [?] Pilih methode Scan :
      1. Scan dari link/url yang dimasukkan.
      2. Scan dari file daftar target examp(list.txt).
 '''+ga.end
