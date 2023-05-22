@@ -35,7 +35,7 @@ def main_function(url, payloads, check):
                         print ga.blue+" [*] POC: "+ga.end + bugs
                         print ga.green+" [*] Happy Exploitation :D"+ga.end
                         print ""
-                        print """-----------------------------{ breaksek }-----------------------------"""
+                        print "-----------------------------( breaksek )-----------------------------"
                         print ""
                         vuln +=1
         if vuln == 0:                
@@ -48,7 +48,7 @@ def main_function(url, payloads, check):
 def rce_func(url):
 	headers_reader(url)
   	print ""
-    print """-----------------------------{ breaksek }-----------------------------"""
+    print "-----------------------------( breaksek )-----------------------------"
     print ""
   	print ga.bold+" [!] Now Scanning for Remote Code/Command Execution "+ga.end
   	print ga.blue+" [!] Covering Linux & Windows Operating Systems "+ga.end
@@ -65,7 +65,7 @@ def rce_func(url):
 
 def xss_func(url):
         print ""
-        print """-----------------------------{ breaksek }-----------------------------"""
+        print "-----------------------------( breaksek )-----------------------------"
         print ""
         print ga.bold+"\n [!] Now Scanning for XSS "+ga.end
         print ga.blue+" [!] Please wait ...."+ga.end
@@ -77,7 +77,7 @@ def xss_func(url):
 
 def error_based_sqli_func(url):
 	print ""
-  print """-----------------------------{ breaksek }-----------------------------"""
+  print "-----------------------------( breaksek )-----------------------------"
   print ""
 	print ga.bold+"\n [!] Now Scanning for Error Based SQL Injection "+ga.end
 	print ga.blue+" [!] Covering MySQL, Oracle, MSSQL, MSACCESS & PostGreSQL Databases "+ga.end
